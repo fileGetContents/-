@@ -1,0 +1,92 @@
+.hide{
+    display: none;
+}
+@media (min-width: 768px){
+    .explain .dl-horizontal {
+        padding-bottom:10px;
+        border-bottom: 1px solid #ccc;
+    }
+    .explain .dl-horizontal dt {
+        width: 80px;
+        font-size: 1.8rem;
+    }
+    .explain .dl-horizontal dd {
+        margin-left: 90px;
+        line-height: 25px;
+    }
+    .explain .eln_hztl {
+        border:1px solid #ddd;
+        padding:12px;
+        border-radius: 5px;
+    }
+    .mt-50{
+        margin-top: 50px;
+    }
+    .mb-30 {
+        margin-bottom: 30px;
+    }
+    .fr {
+        float: right;
+    }
+}
+.projectMoney  table td ,.projectMoney  table th{
+    text-align: center;
+}
+.projectMoney table select {
+    width: 180px;
+    padding:5px;
+    outline: none;
+}
+.projectMoney table .share {
+    border:1px solid #ccc;
+    outline: none;
+    width: 80px;
+    text-align: center;
+}
+.projectMoney table .reduce ,.projectMoney table .plus {
+    font-size: 20px;
+    padding:3px;
+    text-decoration: none;
+    position: relative;
+}
+.projectMoney table .reduce:after,.projectMoney table .plus:after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top:10px;
+    left: 5px;
+    background: url(../images/picture.png)0px -299px;
+}
+.projectMoney table .reduce:after {
+    left: -19px;
+    background: url(../images/picture.png)-23px -299px;
+}
+.table>tbody>tr>td {
+    line-height: 31px;
+}
+.orofit ul li {
+    display: none;   
+}
+.orofit ul li img {
+    max-width: 100%;
+}
+.orofit ul li:nth-child(1) {
+    display: block;
+}
+.sut_prt {
+    background: #BCD7E6;
+    padding:12px;
+}
+.sut_prt a {
+    font-size: 2rem;
+    color: #000;
+    text-decoration: none;
+}
+.sut_prt input {
+    padding:7px 50px;
+    border: 0;
+    outline: none;
+    background: #FD5B0A;
+    color:white;
+}

@@ -1,0 +1,53 @@
+/*全局*/
+* { margin:0; padding:0; }
+body{font-family: "Microsoft YaHei","宋体";font-size:14px;color:#000;}
+td,th,caption { font-size:14px; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#000; text-decoration:none; }
+a:link {text-decoration: none;}
+a:visited {color: #555;} 
+a:hover { text-decoration:underline; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;}
+*,*:after,*:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;
+}
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+
+/*<!-- 返回顶部 -->*/
+#return_top{
+    position: fixed;
+    bottom: 150px;
+    right:15px;
+    width: 50px;
+    height: 50px;
+    display: none;
+    background: url(../images/return-top.png);
+}
+
+.page{
+    width: 98%;
+   margin-right: 0px;
+
+}
+.page li {
+    float: right;
+
+}
+
+.page .pagination li a{
+    color: #ffa61e;
+}
+.page .pagination li a:hover{
+    color: #fff;
+    background-color: #ffa61e;
+    border-color: #ffa61e;
+}
+.page .pagination>.active>a {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #ffa61e;
+    border-color: #ffa61e;
+}

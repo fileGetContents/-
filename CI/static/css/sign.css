@@ -1,0 +1,26 @@
+body {
+        padding: 0;
+    }
+    .signing_input_span{
+        font-size: 18px;
+    }
+    .signing_input input[type="submit"]{
+        width: 100px;
+        height: 35px;
+        color: #fff;
+        border:none;
+        outline: none;
+        border-radius: 1px;
+    }
+    .container>div {
+        padding:12px;
+    }
+    .signing_input_span i { font-style:normal}
+    @media (min-width: 768px){
+        .fl {
+            float: left;
+        }
+        .fr {
+            float: right;
+        }
+    }

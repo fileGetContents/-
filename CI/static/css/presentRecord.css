@@ -1,0 +1,53 @@
+#main .my_tab {
+	border: 1px solid #ccc;
+	padding:12px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#main .my_tab h3{
+	margin-bottom: 0;
+	position: relative;
+	padding-bottom: 14px;
+	border-bottom: 1px solid #ccc;
+}
+#main .my_tab h3:after{
+	content: "";
+	width: 120px;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #C69C6D;
+}
+#main .my_tab .tbe_payment{
+    margin-top: 12px;
+}
+#main .my_tab .tbe_payment thead tr{
+	background: #BCD7E6;
+}
+#main .my_tab .tbe_payment thead tr th,#main .my_tab .tbe_payment {
+	text-align: center;
+}
+#main .my_tab .tbe_payment tbody tr {
+	border-bottom: 1px solid #ccc;
+}
+/*分页*/
+#main .my_tab .paging_tion {
+	text-align: center;
+	margin-top: 1rem;
+}
+#main .my_tab  .paging_tion a {
+	padding:0.6rem 1.2rem;
+	margin-left: -1px;
+	border:1px solid #ddd;
+	text-decoration: none;
+	color:#c69c6d;
+}
+#main .my_tab  .paging_tion a:hover {
+	background: #c69c6d;
+	color:white;
+}
+#main .my_tab  .paging_tion a.active {
+	background: #c69c6d;
+	color:white;
+}

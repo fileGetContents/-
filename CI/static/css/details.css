@@ -1,0 +1,228 @@
+@charset "utf-8";
+#main .dts_list {
+	margin-top: 1rem;
+}
+#main .dts_list .size_h1 {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+#main .dts_list .swiper-container {
+	background-color:#ff9900;
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+@media (min-width: 768px){
+	.img-responsive {
+		width: 100%;
+		height: 441px;
+	}
+	#main .dts_list .dts_table {
+		height: 441px;
+	}
+}
+#main .dts_list .dts_table {
+	background: #fff;
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+	padding:5px 15px;
+}
+#main .dts_list .dts_table>h3 {
+	margin-top: 14px;}
+.dts_details {
+	background: #fff;
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+	margin-top: 2rem;
+}
+#main .dts_list .dts_table .col-md-2{
+	padding:0px;
+}
+#main .dts_list .dts_table .col-md-10 {
+	padding-right:0;
+}
+#main .dts_list .dts_table  .he_sle {
+	margin-bottom: 1rem;
+}
+#main .dts_list .dts_table  .he_sle span {
+	display: inline-block;
+	width: 167px;
+	padding:6px;
+	border:1px solid #c69c6d;
+	margin-right: 1.5rem;
+}
+#main .dts_list .dts_table  .he_sle i{font-style:normal}
+
+@media (max-width: 768px){
+	#main .dts_list .dts_table {
+		margin-top: 2rem;
+	}
+	#main .dts_list .dts_table .col-md-2 {
+		margin-bottom: 1rem;
+		padding-left:15px;
+	}
+}
+
+#main .dts_list .dts_table .dts_button a {
+	display: block;
+	width: 100%;
+	line-height: 50px;
+	font-size: 2rem;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	background: #FFA61E;
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+	margin-top: 1rem;
+}
+#main .dts_list .dts_table .dts_profit {
+	line-height: 2.5rem;
+	font-size: 1.8rem;
+}
+@media (min-width: 768px){
+	#main .dts_list .dts_table .dts_profit {
+		text-align: center;
+	}
+}
+
+
+/*进度条*/
+#main .pgss {
+	overflow: hidden;
+	background-color: #ccc;
+	height: 20px;
+	width: 100%;
+	position: relative;
+}
+#main .pgss .pgss_bar {
+	background-color: #c69c6d;
+	height: 20px;
+}
+#main .pgss .pgss_bar span{
+	position: absolute;
+	left: 50%;
+	color:white;
+}
+
+/*二级菜单*/
+#main .subnav {
+	color: white;
+	font-size: 1.6rem;
+	background: #000;
+}
+@media (min-width: 768px){
+	#main .subnav {
+		padding:20px 0;
+	}
+}
+#main .subnav a {
+	margin:0 1.5rem;
+	color: white;
+	text-decoration: none;
+}
+#main .subnav a:hover {
+	color:#c69c6d;
+}
+#main .subnav a.active {
+	color:#c69c6d;
+}
+@media (min-width: 768px){
+	#main .subnav_list {
+		margin-bottom: 1rem;
+	}
+}
+#main .subnav_list > div {
+	display: none;
+	padding: 10px 15px;
+}
+#main .subnav_list > div:nth-child(1){
+	display: block;
+}
+@media (min-width: 768px){
+	.snInRgr {
+		text-align: center;
+	}
+}
+.snInRgr {
+	font-size: 2rem;
+	padding: 15px 0;
+}
+.snInRgr a {
+	color:#FFA61E;
+}
+
+/*支持记录*/
+#main .support_record .tbe_payment thead tr{
+	background: #BCD7E6;
+}
+#main .support_record .tbe_payment thead tr th,#main .support_record .tbe_payment {
+	text-align: center;
+}
+#main .support_record .tbe_payment tbody tr {
+	border-bottom: 1px solid #ccc;
+}
+#main .support_record table {
+	margin-bottom: 30px;
+}
+/*分页*/
+#main .paging_tion {
+	text-align: center;
+	margin-top: 2rem;
+}
+#main .paging_tion a {
+	padding:0.6rem 1.2rem;
+	margin-left: -1px;
+	border:1px solid #ddd;
+	text-decoration: none;
+	color:#c69c6d;
+}
+#main .paging_tion a:hover {
+	background: #c69c6d;
+	color:white;
+}
+#main .paging_tion a.active {
+	background: #c69c6d;
+	color:white;
+}
+#main .brief_introduction>img{
+	display: block;
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+.xiangmuhetong {
+	text-align: center;
+	background: #fff;
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+	margin-top: 2rem;
+}
+.xiangmuhetong>h4 {
+	background: #c69c6d;
+	display: inline-block;
+	padding: 10px 30px;
+	box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+	color:#fff;
+}
+.xiangmuhetong>div{
+	text-align: left;
+	padding:5px 20px;
+	line-height: 24px;
+}
+.xiangmuhetong>div>a {
+	float: right;
+	text-decoration: none;
+	color:#000;
+}
+.xiangmuhetong>div>a:hover{
+	color: #c69c6d;
+}
+.fengkong li {
+	list-style:square;
+	margin-bottom: 15px;
+	margin-left: 20px;
+}
+.fengkong >ul {
+	margin-bottom: 30px;
+}

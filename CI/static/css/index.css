@@ -1,0 +1,239 @@
+/*主体 START */
+.banner_chart img {
+	width: 100%;
+}
+#main .banner_text {
+	background: #000;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+#main .now_purchase>a.pull-right{
+	padding:1rem 2rem;
+	color:white;
+	text-decoration: none;
+	border: 1px solid white;
+
+}
+#main .now_purchase .pull-left span{
+	color:white;
+	font-size: 1rem;
+}
+#main .now_purchase .pull-left p{
+	color:#c69c6d;
+	 margin: 0;
+	font-size: 2.2rem; 
+}
+#main .ist_product {
+	text-align: center;
+	margin: 2rem 0;
+}
+#main .ist_product>h2,#main .ist_product>h3{
+	font-size: 3rem;
+	margin-bottom: 5rem;
+	position: relative;
+}
+#main .ist_product>h2:after,#main .ist_product>h3:after{
+	content: "";
+    width: 130px;
+    height: 7px;
+    position: absolute;
+    left: 50%;
+    margin-left: -62px;
+    bottom:-35px;
+}
+#main .ist_product>h2:after{
+	background: url(../images/picture.png)0px -103px;
+}
+#main .ist_product>h3:after{
+	background: url(../images/picture.png)0px -115px;
+}
+#main .ist_product>span{
+	font-size: 1.6rem;
+}
+#main .ist_product>a{
+	color: #333;
+	font-size: 2rem;
+	text-decoration: none;
+}
+#main .ist_product>a:hover{
+	color:#c69c6d;
+}
+/*主体 END */
+
+
+
+#main .product .thumbnail {
+    border:none;
+    padding:0;
+    border-radius: 0.6rem;
+    overflow: hidden;
+}
+#main .product .thumbnail >a {
+	position: relative;
+	display: block;
+}
+#main .product .thumbnail >a>span {
+	width: 150px;
+	position: absolute;
+	top:-21px;
+	right: -55px;
+	padding-top: 45px;
+	padding-bottom: 5px;
+	background: #7C8EBF;
+	text-align: center;
+	color:#fff;
+	transform:rotate(40deg);
+	-ms-transform:rotate(40deg); /* Internet Explorer */
+	-moz-transform:rotate(40deg); /* Firefox */
+	-webkit-transform:rotate(40deg); /* Safari 和 Chrome */
+	-o-transform:rotate(40deg); /* Opera */
+}
+#main .product .thumbnail >a img{
+	border-radius: 0.6rem;
+}
+/*进度条*/
+#main .product .thumbnail .pgss {
+	overflow: hidden;
+    background-color: white;
+    margin-top: 7px;
+    height: 20px;
+    width: 86%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+#main .product .thumbnail .pgss .pgss_bar {
+	background-color: #47484A;
+	height: 20px;
+}
+#main .product .thumbnail .pgss .pgss_bar span{
+   position: absolute;
+	left: 50%;
+	margin-left: -18px;
+    color:#c69c6d;
+}
+#main .product .pgss_time {
+	margin-top: 0.4rem;
+	padding:0.5rem;
+	text-align: center;
+	color:#c69c6d;
+}
+#main .product .pgss_time span {
+	color:#333;
+}
+#main .product .pgss_time.pgss_yellow {
+	background: #c69c6d;
+	color:white;
+}
+#main .product .pgss_name {
+	padding:0.5rem;
+	text-align: center;
+}
+#main .product .pgss_name a{
+	color: #333;
+	text-decoration: none;
+	font-size: 2.5rem;
+}
+#main .product .pgss_name a:hover{
+	color: #c69c6d;
+}
+#main .product .caption_host ul{
+	margin-top: 1rem;
+}
+#main .product .caption_host li{
+	float: left;
+	text-align: center;
+	width: 33%;
+}
+
+/*成功案例*/
+#main .success {
+	background:#000;
+	color:#fff;
+	font-size: 3rem;
+}
+@media (min-width: 768px){
+	#main .success .row {
+		margin:8rem 0 4rem;
+	}
+}
+
+#main .success .scs_case{
+	text-align: center;
+}
+#main .success .scs_case span {
+	position: relative;
+}
+
+#main .success .scs_case span:before {
+	content:"";
+	width: 72px;
+    height: 62px;
+    position: absolute;
+    left: -75px;
+    top:4px;
+    background: url(../images/picture.png)-3px -136px;
+}
+#main .success .scs_case.faangzi span:before{
+	width: 74px;
+	height:78px;
+	top:-4px;
+	left: -115px;
+	background: url(../images/picture.png)-82px -120px;
+}
+@media (min-width: 768px){
+	#main .success .scs_case span:before {
+		left:-90px;
+	}
+	#main .success .scs_case.faangzi span:before {
+		left: -120px;
+	}
+}
+#main .success .project {
+	margin-bottom: 8rem;
+}
+#main .success .project span {
+	display: inline-block;
+	width: 19.3%;
+	text-align: center;
+	font-size: 1.8rem;
+	position: relative;
+}
+#main .success .project span:before {
+	content:"";
+	width: 41px;
+    height: 41px;
+    position: absolute;
+    left: 20px;
+    top:-10px;
+    background: url(../images/picture.png)0px 0px;
+}
+#main .success .project span:nth-child(2):before {
+	background: url(../images/picture.png)-62px 0px;
+}
+#main .success .project span:nth-child(3):before {
+	background: url(../images/picture.png)-122px 0px;
+}
+#main .success .project span:nth-child(4):before {
+	background: url(../images/picture.png)-177px 0px;
+}
+#main .success .project span:nth-child(5):before {
+	background: url(../images/picture.png)-228px 0px;
+}
+.cmd_touzi {
+	text-align: center;
+	padding: 15px 0;
+	color: #FC6808;
+}
+.cmd_touzi p {
+	line-height: 33px;
+}
+.cmd_touzi .font_size a{
+	font-size: 18px;
+	color: #333;
+	text-decoration: none;
+}
+.cmd_touzi .font_size a:hover {
+	color: #FC6808;
+}
+

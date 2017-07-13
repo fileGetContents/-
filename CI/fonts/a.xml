@@ -1,0 +1,19 @@
+<books>
+<book id="22">
+    <notify_time>20161102140652</notify_time>
+    <sign_type>RSA</sign_type>
+    <notify_type>trade_status_sync</notify_type>
+    <trade_status>TRADE_SUCCESS</trade_status>
+    <gmt_payment>20161102140652</gmt_payment>
+    <version>1.0</version>
+    <sign>ZZ1T4Zzyoi2I9o55c7wsxgkdoqfgD5nzTTpp9wvTYRYjvdFmYEVU40127yxW+iSabs0PR09nycVg8xUHlxZDiZlBWUt8e5hRGwtGiIySsysbJ3kFFFEBhSBcl7TwWySrOHaoF9j36/jPFXek5FXDQP8a+CqKKqqVxTpu1HYrJDQ=</sign>
+    <extension>{}</extension>
+    <gmt_create>20161102140652</gmt_create>
+    <_input_charset>UTF-8</_input_charset>
+    <outer_trade_no>201602430204431</outer_trade_no>
+    <trade_amount>1.00</trade_amount>
+    <inner_trade_no>101147806672509648715</inner_trade_no>
+    <notify_id>b38bffae2394401c907976b6a4a95728</notify_id>
+    <消息>返回的交易信息失败</消息>
+</book>
+    <book id="22"><notify_time>20161102140916</notify_time><sign_type>RSA</sign_type><notify_type>trade_status_sync</notify_type><trade_status>TRADE_SUCCESS</trade_status><gmt_payment>20161102140652</gmt_payment><version>1.0</version><sign>F/As6F1x0Z1br33qcoTbE4g5Toayud6auXEBlJG+natlrAsTv/4kHCw9VOz1G9GCksGwRJkxqAnY8P10gF6hHgyyz1+VNTKbs+BLcJV+FAodAnPS+jcSXrRudDPAjlZBih8dMuTSW9XlgVXJsdn0pEFSOpW/LxRVJypWMn2hqco=</sign><extension>{}</extension><gmt_create>20161102140652</gmt_create><_input_charset>UTF-8</_input_charset><outer_trade_no>201602430204431</outer_trade_no><trade_amount>1.00</trade_amount><inner_trade_no>101147806672509648715</inner_trade_no><notify_id>b38bffae2394401c907976b6a4a95728</notify_id><消息>返回的交易信息失败</消息></book></books>

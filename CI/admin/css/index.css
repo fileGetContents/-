@@ -1,0 +1,124 @@
+/*导航部分*/
+.navbar_balck,.navbar_blue{
+    background-color: #2191c3;
+}
+.navbar_balck {
+    height: 56px;
+}
+.navbar_balck>ul>li{
+    float: left;
+    margin-left:5px;
+}
+.navbar_balck>ul>li>a{
+    line-height: 56px;
+    font-size: 14px;
+    color:#fff;
+    padding:0 5px;
+}
+.navbar-wrapper {
+    height: 100px; 
+}
+.nav>ul>li>a {
+    color:#fff;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-top-left-radius: 3px;
+    -moz-border-top-right-radius: 3px;
+}
+.nav>ul>li>a:hover{
+    color:#fff;
+}
+.nav>ul>li.current a{
+    background: #E7F4FC;
+    color:#2191c3;
+}
+/*左侧*/
+.Hui-aside {
+    position: absolute;
+    top: 56px;
+    bottom: 0;
+    left: 0;
+    width: 199px;
+    z-index: 99;
+    overflow: auto;
+    background-color: rgba(238,238,238,0.98);
+    border-right: 1px solid #e5e5e5;
+}
+
+.sidebar{
+  color: #fff;
+  margin-top: 7px;
+}
+.title{
+  line-height: 35px;
+  border-bottom: 1px solid #ccc;
+  background: #2191C3;
+  cursor: pointer;
+}
+.title > span{
+    width: 180px;
+    font-size: 14px;
+    padding-left: 19px;
+    display: inline-block;
+}
+/*in-sidebar*/
+.in-sidebar{
+  display: none;
+}
+.in-sidebar > li{
+    height: 32px;
+    background: #fff;
+    line-height: 32px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.in-sidebar li a{
+    display: block;
+}
+.in-sidebar li a:hover {
+    color:#F88900;
+    text-decoration: none;
+}
+
+.in-sidebar li.active {
+    background: #9BD3EA;
+}
+.in-sidebar li.active a{
+    color:#fff;
+}
+
+/*下*/
+.Hui-article-box {
+    position: absolute;
+    top: 56px;
+    right: 0;
+    bottom: 0;
+    left: 199px;
+    overflow: hidden;
+    z-index: 1;
+    background-color: #fff;
+}
+.Hui-article iframe {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.down {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    background: url(../images/down.png)no-repeat;
+}
+.up{
+    background: url(../images/up.png)no-repeat;
+}
+
+
+

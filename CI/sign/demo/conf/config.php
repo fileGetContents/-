@@ -1,0 +1,19 @@
+<?php
+$SERVERS_CONFIG = array();
+//$SERVERS_CONFIG['demo'] = array(
+//    'mid' => 'ab1ab306d3754af4b706eb0d2d929f70',
+//    'pem' => 'MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAKFdchdaAODIjmOmvpaoCQVRKv6AdE6rsetSTHQN0Ci5zmws+GfhkTgdzPT0Qec22RF6iL0WL9MXcuUrFM5vQcWS3VJkSgAcxUG9tGQJDpmMjKSHcWFilOU44YW15Anb3boSimhM7Vm7JndSI9tGc7ol4bBCYxNGwEd+MRELbVb1AgMBAAECgYAnillZpYFPk3Vor8RF8Hj9Z41MfbeCS4o2ap03VucqA5W0ZjScZ+aIxKyjXXMEsCjyon79LoGbjURnKW5Yw2RvHAniCPobeHfI+TSGjLUCOcEoAbIh+QpjpgQVRQh4iHfjEVFi9izHYpD4sdoTHO4GuIVaLPch/UClJHeK4c2bJQJBAObeSk0qNtEJDAxY3NvukgSJ7ImqzkU8uR+4XxJLcbkHkkDE/Lxtb0CEHt3I0BU6eEqEJYHKb+/WRoy2fQZmgs8CQQCy7ka1rFlMtBrEq5rL07Q11++xOUbpsGlvAiuMDhaE3kr/mE1UuWgvm+7YxeX0GlIn8iKKHsSmh8SCImrvAQr7AkAvCCPs2me2Z/hrX4MGzvAyOoLUfNZupnM0MhQ0Huh5AEDcLwUpwcWDSCcdmXZCjNnKnGcjrMDnBCj1K4wGzMVjAkBiGYdE9ZAkIJ6Iczk0RQaJerFcbfW2C9VSWlM7v0GTaTifN4Y2TEyVxZ1G1gFEOuYOJo/PQB063DbdzjbogJ7fAkEA2t+c4WTR0chSNj9Clv/09F6hl4d/uuHsPMvyTf3MGAq+Kya6bpEgGmhFwpfgZp3+1OQ3MMADFH6/Fae7SV4uOQ==',
+//    'host' => 'https://www.ssqsign.com',
+//);
+
+$SERVERS_CONFIG['demo'] = array(
+    'mid' => 'ab1ab306d3754af4b706eb0d2d929f70',
+    'pem' => 'MIICdgIBADANBgkqhkiG9w0BAQEFAASCAmAwggJcAgEAAoGBAK2e1p6i7oWQ2oHubMjLYqM0wD7wdb8qJOi1XOa6R7WdobywzG4nDpIyGcOANz5z+jnLXVTCVFmV8Y2n3kGaiowzME87OCGWt1kASeAIXmZ5m2cRdGr7SvXe0mSVh9nkyw4oq0ZY4wVRhou0cJJNUp6e5OV91O/5Cdjl7Ma5dZoxAgMBAAECgYAicz4KxDGn9xIkbfbP8OtljvYGhxgWEnq4YiRI8/V+qASLuFkYEk/l2mMaU7qifcjM5vlh9B1gmUwQ25pSUiPjUWAxa2E+II4GQ0BHVYIBg5NtP3ghFPNJOneAmVVZYnbX5tHqeOPryGQjgaJk72jPBBehsE5ky8n9yxrdeXhAsQJBAPHcCWmB5VOEnGYzeAQg1rJEfoGNXah3SKd1rdVM2i/tJ1ukmgbw5J0JuhG2v5mA8Iw3b5xwGscxLD1NA63lIfcCQQC3xXP439yhc/X7Xcbyp2oHVzULlXYcpJ966Tadx9H1lziBZSRFsXcA3yxky312/lwAwBaFfzDPmLPNiuIQaZsXAkBbFk2NKNifbbAhZXzrwRpapSUn0X/WdKYuO0murXT229AY2ZMQziSraABlr3fVbhQqGq60MhxDrKdGpvydv0/dAkEAn7h9k1D98VVX9aELyNq4zKh+8hJ1FW//LFSFo5yIX2uPMOc3H1uekqNlcjVqVoG8dOp+qIhjZArUO1D6KkmfAQJAfjLnSypgaHGyqOW0kJrSQqNU51gsLnr0RX5WTrYPiIB8iV6BGrSs5/fx2nH4lPpuYUvQGWpGBGIHMwjoiDJhJA==',
+    'host' => 'https://www.bestsign.cn',
+);
+
+
+if (file_exists(__DIR__ . '/config.local.php'))
+{
+    require(__DIR__ . '/config.local.php');  
+}

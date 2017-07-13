@@ -1,0 +1,40 @@
+/*主体*/
+/*关于我们*/
+#main .container>h1 {
+    margin: 30px 0;
+    text-align: center;
+    color: #c69c6d;
+    font-weight: normal;
+    font-size: 3rem;
+}
+#main .aboutus_gong p{
+    text-align: center;
+    color:#c69c6d;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing:2px;
+}
+.ta{
+    text-align: center;
+}
+.ta img {
+    margin: 10px 0;
+}
+
+/*联系我们*/
+#main .aboutus {
+    text-align: center;
+    color: #fff;
+}
+#main .aboutus h5 {
+    margin: 25px 0;
+    font-size: 16px;
+}
+#main .aboutus p {
+    line-height: 24px;
+}
+#main .aboutus_hezuo > p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}

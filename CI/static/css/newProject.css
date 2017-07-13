@@ -1,0 +1,59 @@
+/*主体 START */
+/*项目*/
+#main .product {
+	margin-top: 2rem;
+	margin-bottom:2rem;
+}
+@media (min-width: 768px){
+	#main .product {
+		margin-top: 4rem;
+		margin-bottom:4rem;
+	}
+}
+#main .product .thumbnail {
+    border:none;
+    padding:0;
+    border-radius: 0.6rem;
+    overflow:hidden;
+}
+#main .product .thumbnail >a img{
+	border-radius: 0.6rem;
+}
+.cmd_touzi {
+	text-align: center;
+	padding: 15px 0;
+	color: #FC6808;
+}
+.cmd_touzi p {
+	line-height: 33px;
+}
+.cmd_touzi .font_size a{
+	font-size: 18px;
+	color: #333;
+	text-decoration: none;
+}
+.cmd_touzi .font_size a:hover {
+	color: #FC6808;
+}
+/*分页*/
+#main .product .paging_tion {
+	text-align: center;
+	margin-top: 2rem;
+}
+#main .product  .paging_tion a {
+	padding:0.6rem 1.2rem;
+	margin-left: -1px;
+	border:1px solid #ddd;
+	text-decoration: none;
+	color:#c69c6d;
+}
+#main .product  .paging_tion a:hover {
+	background: #c69c6d;
+	color:white;
+}
+#main .product  .paging_tion a.active {
+	background: #c69c6d;
+	color:white;
+}
+
+/*主体 END */

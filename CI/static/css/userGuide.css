@@ -1,0 +1,101 @@
+/*主体*/
+
+/*左侧*/
+.mt50 {
+    margin-top: 50px;
+}
+.text_conter{
+    height: 550px;
+}
+.text_style {
+    padding-top: 140px;
+    margin-left: 160px;
+    color:#fff;
+}
+.text_style h1 {
+    margin-bottom: 60px;
+}
+.text_style ul li{
+    line-height: 40px;
+    list-style: disc;
+    margin-left: 15px;
+}
+.text_tans {
+    padding-top: 140px;
+    margin-left: 160px;
+    color:#fff;
+}
+.text_tans h1 {
+    margin-bottom: 50px;
+}
+.text_tans ul li{
+    margin-top: 20px;
+}
+.text_tans ul li p{
+    line-height: 55px;
+}
+.fl_l {
+    float: left;
+    width: 550px;
+    margin-top: 200px;
+    text-align: center;
+}
+.fl_r {
+    float: right;
+    width: 550px;
+}
+.fl_r h1 {
+    margin-top: 80px;
+    line-height: 160px;
+}
+.fl_r ul li{
+    line-height: 60px;
+    list-style: disc;
+    margin-left: 15px;
+}
+.mian_cont .text_bg1{
+    background: url(../images/user_bg1.png)no-repeat;
+    background-size:100% 100%;
+    -moz-background-size:100% 100%;
+}
+.mian_cont .text_bg2{
+    background: url(../images/user_bg2.png)no-repeat;
+    background-size:100% 100%;
+    -moz-background-size:100% 100%;
+}
+.mian_cont .text_bg3{
+    background: url(../images/user_bg3.png)no-repeat;
+    background-size:100% 100%;
+    -moz-background-size:100% 100%;
+}
+.text_tai {
+    height: 300px;
+    text-align: center;
+}
+.text_tai h1 {
+    color: #2B88C6;
+    font-size: 40px;
+    margin-top: 70px;
+    line-height: 80px;
+}
+.text_tai p{
+    line-height: 60px;
+}
+.tianjia {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.tianjia img {
+	width: 100%;
+}
+.tianjia > div{
+	margin-top: 20px;
+	position: relative;
+}
+.tianjia > div>a{
+	position: absolute;
+	width: 24%;
+	height: 18%;
+	bottom: 19%;
+	left: 38%;
+}

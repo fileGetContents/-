@@ -1,0 +1,110 @@
+.signIn {
+	width: 100%;
+	background: white;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	padding:12px;
+}
+.mt-no-20 {
+	margin-top: 20px;
+}
+.mb-no-20{
+	margin-bottom:20px;
+}
+@media (min-width: 768px){
+	#main {
+		width: 100%;
+		background: url(../images/bg.jpg)no-repeat;
+		background-size:100% 100%;
+		-moz-background-size:100% 100%; /* 老版本的 Firefox */
+	}
+	.signIn {
+		width: 350px;
+		float: right;
+		margin-right: 20%;
+		padding:30px 12px 50px;
+	}
+	.mt-20 {
+		margin-top: 20px;
+	}
+	.mb-20{
+		margin-bottom:20px;
+	}
+}
+.fl-no{
+	float: left;
+}
+.fr-no{
+	float: right;
+}
+.form_input{
+	display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+.yellow {
+	color:#ffa61e;
+}
+.size >a{
+	text-decoration: none;
+	color:#333;
+}
+.size >a:hover {
+	color:#ffa61e;
+}
+.verification {
+	position: relative;
+}
+.verification input{
+    width: 33%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+.verification label.verification_chose {
+	width: 28%;
+}
+.verification .fr-no{
+	width: 33%;
+    height: 34px;
+    position: absolute;
+    right:0;
+    top:0;
+}
+.verification .fr-no img {
+	width: 100%;
+	height: 100%;
+}
+.btn-yellow {
+	width: 100%;
+	height: 34px;
+	background: #ffa61e;
+	color:white;
+	outline:none;
+	border: 0;
+	border-radius: 3px;
+}
+.btn-yellow:hover {
+	color:white;
+}
+label {
+	font-weight: normal;
+}
+label.error {
+	padding-left: 12px;
+	padding-bottom: 2px;
+	font-weight: normal;
+	color: #ffa61e;
+}
